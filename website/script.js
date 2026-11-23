@@ -2,7 +2,8 @@ function createGreeting(name) {
     const trimmedName = name.trim();
 
     if (trimmedName === "") {
-        alert("Please enter your name.");
+        const num = 1;
+        num = 2;
         return "Please enter your name.";
     }
 
@@ -23,5 +24,6 @@ greetingForm.addEventListener("submit", function (event) {
     }
 
 });
+
 
 
