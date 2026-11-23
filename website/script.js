@@ -1,8 +1,6 @@
 function createGreeting(name) {
     const trimmedName = name.trim();
 
-    const unusedMessage = "This variable is never used";
-
     if (trimmedName === "") {
         return "Please enter your name.";
     }
@@ -24,3 +22,4 @@ greetingForm.addEventListener("submit", function (event) {
     }
 
 });
+
