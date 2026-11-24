@@ -2,8 +2,6 @@ function createGreeting(name) {
     const trimmedName = name.trim();
 
     if (trimmedName === "") {
-        const num = 1;
-        num = 2;
         return "Please enter your name.";
     }
 
